@@ -262,6 +262,7 @@ body {
 
 .card .image {
   width: 591px !important;
+  max-width: 100% !important;
   height: 1280px !important;
   overflow-y: hidden;
 }
