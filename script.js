@@ -118,7 +118,7 @@ function handleClickLixi() {
     lixi.addEventListener('click', function () {
       if (availableMessages.length > 0) {
         const message = getRandomPosition(availableMessages);
-        const hasQR = showQR ? Math.random() < 0.4 : false; // 60% chance for QR
+        const hasQR = showQR ? Math.random() < 0.5 : false; // 60% chance for QR
         if (hasQR) {
           const lixiMessage = getRandomPosition(availableLixiMessages);
           showCard(message, lixiMessage, hasQR);
